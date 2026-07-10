@@ -1,0 +1,13 @@
+GitHub
+   ↓
+CodePipeline
+   ↓
+CodeBuild
+   ↓
+S3
+   ↓
+CodeDeploy
+   ↓
+EC2
+   ↓
+CloudWatch
