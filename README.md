@@ -42,6 +42,6 @@ Amazon EC2
 
 CloudWatch
 
-## Author
+## Sai Sagar
 
 <YOUR_NAME>
