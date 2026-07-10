@@ -2,6 +2,10 @@
 
 cd /home/ec2-user/aws-native-cicd-project
 
-nohup gunicorn -b 0.0.0.0:5000 app:app > application.log 2>&1 &
+touch application.log
+chmod 664 application.log
 
-echo "Application Started."
+nohup /home/ec2-user/.local/bin/gunicorn \
+    -b 0.0.0.0:5000 \
+    app:app \
+    >> application.log 2>&1 &
